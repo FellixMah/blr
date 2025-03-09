@@ -2,7 +2,7 @@ local players = game:GetService("Players")
 local player = players.LocalPlayer
 local teams = game:GetService("Teams")
 local replicatedStorage = game:GetService("ReplicatedStorage")
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/S/refs/heads/main/C"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FellixMah/blr/main/style%20%26%20flow%20changer%20and%20No%20cooldown"))()
 
 MakeWindow({
     Hub = {
@@ -58,6 +58,25 @@ AddButton(Main, {
             Button2 = "W libera!",
             Duration = 90
         })
+    end
+})
+
+AddButton(Main, {
+    Name = "¥ Infinite Stamina",
+    Callback = function()
+        while true do
+            while task.wait(0) do
+                game.Players.LocalPlayer.PlayerStats.Stamina.Value = 100
+            end
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "Join PresidentZuyi Hub For Updates!",
+                Text = "Infinite Stamina Completed✅",
+                Button1 = "W libera!",
+                Button2 = "W libera!",
+                Duration = 90
+            })
+            break
+        end
     end
 })
 
