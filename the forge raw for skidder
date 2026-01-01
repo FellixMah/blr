@@ -1,0 +1,411 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VortexScriptsS/Vortex-Scripts/refs/heads/main/VortexUI"))():CreateWindow({
+    KeySystem = {
+        ValidKeys = {
+            [1] = "J39sja",
+        },
+    },
+    OnWindowCreated = function(_8, _8_2)
+        local _call10 = _8:CreateTab({
+            Name = "Mining",
+        })
+        local _call12 = _8:CreateTab({
+            Name = "Fighting",
+        })
+        local _call14 = _8:CreateTab({
+            Name = "LocalPlayer",
+        })
+        local _call16 = _8:CreateTab({
+            Name = "Forge",
+        })
+        local _call20 = game:GetService("ReplicatedStorage")
+        game:GetService("TweenService")
+        local _LocalPlayer25 = game:GetService("Players").LocalPlayer
+        local _Character26 = _LocalPlayer25.Character
+        _Character26:WaitForChild("HumanoidRootPart")
+        _Character26:WaitForChild("Humanoid")
+        _LocalPlayer25.CharacterAdded:Connect(function(_34, _34_2)
+            local _Character35 = _LocalPlayer25.Character
+            _Character35:WaitForChild("HumanoidRootPart")
+            _Character35:WaitForChild("Humanoid")
+        end)
+        _call20:WaitForChild("Shared"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("ToolService"):WaitForChild("RF"):WaitForChild("ToolActivated")
+        for _58, _58_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+            for _61, _61_2 in ipairs(_58_2:GetChildren()) do
+                _61_2:IsA("BasePart")
+                for _66, _66_2 in ipairs(_61_2:GetChildren()) do
+                    _66_2:IsA("Model")
+                    table.find({}, _66_2.Name)
+                end
+            end
+        end
+        _call10:CreateDropdown({
+            Callback = function(_73, _73_2, _73_3, _73_4, _73_5, _73_6)
+            end,
+            Options = {},
+            Name = "Ore",
+        })
+        _call10:CreateToggle({
+            CurrentValue = false,
+            Name = "Auto Mine Selected Ore",
+            Callback = function(_76)
+                _call39.PlatformStand = false
+                game:GetService("RunService").Heartbeat:Connect(function(_80, _80_2, _80_3, _80_4, _80_5)
+                    for _83, _83_2 in ipairs(_Character35:GetDescendants()) do
+                        _83_2:IsA("BasePart")
+                        _83_2.CanCollide = false
+                    end
+                    _call37.Velocity = Vector3.new(0, 0, 0)
+                end)
+                task.spawn(function(_90, _90_2, _90_3)
+                    for _95, _95_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _98, _98_2 in ipairs(_95_2:GetChildren()) do
+                            _98_2:IsA("BasePart")
+                            for _103, _103_2 in ipairs(_98_2:GetChildren()) do
+                                _103_2:IsA("Model")
+                                local _ = _103_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _112, _112_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _115, _115_2 in ipairs(_112_2:GetChildren()) do
+                            _115_2:IsA("BasePart")
+                            for _120, _120_2 in ipairs(_115_2:GetChildren()) do
+                                _120_2:IsA("Model")
+                                local _ = _120_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _129, _129_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _132, _132_2 in ipairs(_129_2:GetChildren()) do
+                            _132_2:IsA("BasePart")
+                            for _137, _137_2 in ipairs(_132_2:GetChildren()) do
+                                _137_2:IsA("Model")
+                                local _ = _137_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _146, _146_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _149, _149_2 in ipairs(_146_2:GetChildren()) do
+                            _149_2:IsA("BasePart")
+                            for _154, _154_2 in ipairs(_149_2:GetChildren()) do
+                                _154_2:IsA("Model")
+                                local _ = _154_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _163, _163_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _166, _166_2 in ipairs(_163_2:GetChildren()) do
+                            _166_2:IsA("BasePart")
+                            for _171, _171_2 in ipairs(_166_2:GetChildren()) do
+                                _171_2:IsA("Model")
+                                local _ = _171_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _180, _180_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _183, _183_2 in ipairs(_180_2:GetChildren()) do
+                            _183_2:IsA("BasePart")
+                            for _188, _188_2 in ipairs(_183_2:GetChildren()) do
+                                _188_2:IsA("Model")
+                                local _ = _188_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _197, _197_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _200, _200_2 in ipairs(_197_2:GetChildren()) do
+                            _200_2:IsA("BasePart")
+                            for _205, _205_2 in ipairs(_200_2:GetChildren()) do
+                                _205_2:IsA("Model")
+                                local _ = _205_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _214, _214_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _217, _217_2 in ipairs(_214_2:GetChildren()) do
+                            _217_2:IsA("BasePart")
+                            for _222, _222_2 in ipairs(_217_2:GetChildren()) do
+                                _222_2:IsA("Model")
+                                local _ = _222_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _231, _231_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _234, _234_2 in ipairs(_231_2:GetChildren()) do
+                            _234_2:IsA("BasePart")
+                            for _239, _239_2 in ipairs(_234_2:GetChildren()) do
+                                _239_2:IsA("Model")
+                                local _ = _239_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _248, _248_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _251, _251_2 in ipairs(_248_2:GetChildren()) do
+                            _251_2:IsA("BasePart")
+                            for _256, _256_2 in ipairs(_251_2:GetChildren()) do
+                                _256_2:IsA("Model")
+                                local _ = _256_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _265, _265_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _268, _268_2 in ipairs(_265_2:GetChildren()) do
+                            _268_2:IsA("BasePart")
+                            for _273, _273_2 in ipairs(_268_2:GetChildren()) do
+                                _273_2:IsA("Model")
+                                local _ = _273_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _282, _282_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _285, _285_2 in ipairs(_282_2:GetChildren()) do
+                            _285_2:IsA("BasePart")
+                            for _290, _290_2 in ipairs(_285_2:GetChildren()) do
+                                _290_2:IsA("Model")
+                                local _ = _290_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _299, _299_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _302, _302_2 in ipairs(_299_2:GetChildren()) do
+                            _302_2:IsA("BasePart")
+                            for _307, _307_2 in ipairs(_302_2:GetChildren()) do
+                                _307_2:IsA("Model")
+                                local _ = _307_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _316, _316_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _319, _319_2 in ipairs(_316_2:GetChildren()) do
+                            _319_2:IsA("BasePart")
+                            for _324, _324_2 in ipairs(_319_2:GetChildren()) do
+                                _324_2:IsA("Model")
+                                local _ = _324_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _333, _333_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _336, _336_2 in ipairs(_333_2:GetChildren()) do
+                            _336_2:IsA("BasePart")
+                            for _341, _341_2 in ipairs(_336_2:GetChildren()) do
+                                _341_2:IsA("Model")
+                                local _ = _341_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _350, _350_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _353, _353_2 in ipairs(_350_2:GetChildren()) do
+                            _353_2:IsA("BasePart")
+                            for _358, _358_2 in ipairs(_353_2:GetChildren()) do
+                                _358_2:IsA("Model")
+                                local _ = _358_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _367, _367_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _370, _370_2 in ipairs(_367_2:GetChildren()) do
+                            _370_2:IsA("BasePart")
+                            for _375, _375_2 in ipairs(_370_2:GetChildren()) do
+                                _375_2:IsA("Model")
+                                local _ = _375_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _384, _384_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _387, _387_2 in ipairs(_384_2:GetChildren()) do
+                            _387_2:IsA("BasePart")
+                            for _392, _392_2 in ipairs(_387_2:GetChildren()) do
+                                _392_2:IsA("Model")
+                                local _ = _392_2.Name == _73
+                            end
+                        end
+                    end
+                    task.wait(0.25)
+                    for _401, _401_2 in ipairs(workspace:FindFirstChild("Rocks"):GetChildren()) do
+                        for _404, _404_2 in ipairs(_401_2:GetChildren()) do
+                            error("internal 543: <25ms: infinitelooperror>")
+                        end
+                    end
+                end)
+            end,
+        })
+        local _call409 = game:GetService("RunService")
+        local _call411 = game:GetService("ReplicatedStorage")
+        local _LocalPlayer412 = game:GetService("Players").LocalPlayer
+        local _call426 = _call411:WaitForChild("Shared"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("ToolService"):WaitForChild("RF"):WaitForChild("ToolActivated")
+        _call12:CreateToggle({
+            CurrentValue = false,
+            Callback = function(_429, _429_2, _429_3)
+                _call409.RenderStepped:Connect(function(_433, _433_2, _433_3)
+                    _LocalPlayer412.Character:FindFirstChild("HumanoidRootPart")
+                    local _ = workspace.Living
+                    error("internal 543: <25ms: infinitelooperror>")
+                end)
+            end,
+            Name = "Auto Fight (Go near the Mob)",
+            Flag = "AutoFire",
+        })
+        _call12:CreateToggle({
+            CurrentValue = false,
+            Callback = function(_441, _441_2, _441_3, _441_4, _441_5)
+                local _call444 = _LocalPlayer412.Character:FindFirstChild("Humanoid")
+                _call444.HealthChanged:Connect(function(_449)
+                    local _ = _449 < _call444.Health
+                end)
+                _call409.RenderStepped:Connect(function(_454)
+                    local _ = 3 - _454
+                    _call426:InvokeServer("Block")
+                end)
+            end,
+            Name = "Auto Block",
+            Flag = "AutoBlock",
+        })
+        _call12:CreateSection("Auto Farm")
+        local _call461 = game:GetService("Players")
+        game:GetService("TweenService")
+        game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("ToolService"):WaitForChild("RF"):WaitForChild("ToolActivated")
+        TweenInfo.new(10, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+        for _492, _492_2 in ipairs(workspace.Living:GetChildren()) do
+            _492_2:IsA("Model")
+            _call461:GetPlayerFromCharacter(_492_2)
+        end
+        _call12:CreateDropdown({
+            Name = "Select Mob Type to Farm",
+            CurrentOption = "None",
+            Flag = "TargetMobDropdown",
+            Callback = function(_499, _499_2, _499_3)
+            end,
+            Options = {},
+        })
+        spawn(function(_501, _501_2, _501_3, _501_4, _501_5)
+            wait(10)
+            for _505, _505_2 in ipairs(workspace.Living:GetChildren()) do
+                _505_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_505_2)
+            end
+            wait(10)
+            for _513, _513_2 in ipairs(workspace.Living:GetChildren()) do
+                _513_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_513_2)
+            end
+            wait(10)
+            for _521, _521_2 in ipairs(workspace.Living:GetChildren()) do
+                _521_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_521_2)
+            end
+            wait(10)
+            for _529, _529_2 in ipairs(workspace.Living:GetChildren()) do
+                _529_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_529_2)
+            end
+            wait(10)
+            for _537, _537_2 in ipairs(workspace.Living:GetChildren()) do
+                _537_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_537_2)
+            end
+            wait(10)
+            for _545, _545_2 in ipairs(workspace.Living:GetChildren()) do
+                _545_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_545_2)
+            end
+            wait(10)
+            for _553, _553_2 in ipairs(workspace.Living:GetChildren()) do
+                _553_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_553_2)
+            end
+            wait(10)
+            for _561, _561_2 in ipairs(workspace.Living:GetChildren()) do
+                _561_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_561_2)
+            end
+            wait(10)
+            for _569, _569_2 in ipairs(workspace.Living:GetChildren()) do
+                _569_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_569_2)
+            end
+            wait(10)
+            for _577, _577_2 in ipairs(workspace.Living:GetChildren()) do
+                _577_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_577_2)
+            end
+            wait(10)
+            for _585, _585_2 in ipairs(workspace.Living:GetChildren()) do
+                _585_2:IsA("Model")
+                _call461:GetPlayerFromCharacter(_585_2)
+            end
+            wait(10)
+            for _593, _593_2 in ipairs(workspace.Living:GetChildren()) do
+                _593_2:IsA("Model")
+                error("internal 543: <25ms: infinitelooperror>")
+            end
+        end)
+        _call12:CreateToggle({
+            IsLocked = true,
+            Name = "Auto Farm Selected Mob",
+            CurrentValue = false,
+            Callback = function(_599, _599_2, _599_3)
+                game:GetService("RunService").Heartbeat:Connect(function()
+                    local _Character604 = _call461.LocalPlayer.Character
+                    _Character604:FindFirstChild("HumanoidRootPart")
+                    local _ = _Character604.HumanoidRootPart
+                    error("internal 543: <25ms: infinitelooperror>")
+                end)
+                error("internal 543: <25ms: infinitelooperror>")
+            end,
+            Flag = "AutoFarmMob",
+        })
+        local _ = game:GetService("Players").LocalPlayer
+        game:GetService("RunService").Heartbeat:Connect(function(_618, _618_2, _618_3, _618_4, _618_5, _618_6)
+        end)
+        _call14:CreateToggle({
+            CurrentValue = false,
+            Callback = function(_621, _621_2, _621_3, _621_4, _621_5)
+            end,
+            Name = "TP Walk",
+            Flag = "TPWalk",
+        })
+        _call14:CreateSlider({
+            Callback = function(_624, _624_2, _624_3, _624_4, _624_5, _624_6)
+            end,
+            Name = "TP Walk Speed",
+            Suffix = " Studs/s",
+            CurrentValue = 5,
+            Increment = 1,
+            Range = {
+                [1] = 1,
+                [2] = 50,
+            },
+            Flag = "TPSpeed",
+        })
+        hookfunction(require(game:GetService("ReplicatedStorage").Controllers.ForgeController.MeltMinigame).Start, function(_645, _645_2, _645_3, _645_4)
+        end)
+        hookfunction(require(game:GetService("ReplicatedStorage").Controllers.ForgeController.PourMinigame).Start, function(_648, _648_2, _648_3, _648_4, _648_5)
+        end)
+        hookfunction(require(game:GetService("ReplicatedStorage").Controllers.ForgeController.HammerMinigame).CreateNote, function(_651, _651_2, _651_3, _651_4, _651_5, _651_6)
+        end)
+        _call16:CreateToggle({
+            CurrentValue = false,
+            Callback = function(_654, _654_2, _654_3, _654_4)
+            end,
+            Name = "Auto Forge (NOT PERFECT)",
+            Flag = "EnableAutoForge",
+        })
+    end,
+    Name = "Liber Hub",
+})
