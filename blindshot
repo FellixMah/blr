@@ -1,0 +1,157 @@
+
+
+local _5 = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+game:GetService("RunService")
+game:GetService("HttpService")
+game:GetService("Workspace")
+game:GetService("PathfindingService")
+game:GetService("UserInputService")
+local _LocalPlayer18 = game:GetService("Players").LocalPlayer
+local _ = _LocalPlayer18.Character
+_LocalPlayer18:WaitForChild("PlayerGui")
+local _call29 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#0D0D1A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A33"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call37 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#101026"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#333366"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A3D"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call45 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#5050A0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#404080"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call53 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#A0A0FF"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#E0E0FF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#C0C0FF"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call61 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6060A0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A0A0E0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#8080C0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call69 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#0A0A1A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A33"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call77 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#404080"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#6060C0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#5050A0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call85 = _5:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6060C0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A0A0FF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#8080E0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+_5:AddTheme({
+    Outline = _call45,
+    Text = _call53,
+    Placeholder = _call61,
+    Name = "Lunar Abyss",
+    Dialog = _call37,
+    Button = _call77,
+    Background = _call69,
+    Icon = _call85,
+    Accent = _call29,
+})
+local _call89 = Color3.fromRGB(0, 128, 255)
+local _call91 = Color3.fromRGB(255, 140, 0)
+local _101, _101_2, _101_3 = math.floor(((_call89.R * 255) + (((_call91.R * 255) - (_call89.R * 255)) * 0)))
+local _111, _111_2, _111_3 = math.floor(((_call89.G * 255) + (((_call91.G * 255) - (_call89.G * 255)) * 0)))
+local _121, _121_2, _121_3 = math.floor(((_call89.B * 255) + (((_call91.B * 255) - (_call89.B * 255)) * 0)))
+string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _101, _111, _121, "F")
+error("line 2: attempt to perform arithmetic (mul) on nil and number")
