@@ -1,0 +1,2330 @@
+--this script was made by liber and config by foxsama 
+
+
+local genv = getgenv()
+local fenv = getfenv()
+local _ = fenv["4QMH3easDBcj"]
+local _ = fenv.AWKzfxAFvTKMyw
+local _ = fenv["4m9alS5lm3e3L"]
+local _ = fenv.ibzGuVlrNdh8
+local _ = fenv.hGqD4zEijO6Hi
+local _ = fenv.AtgPJp5GF3W79J
+local _ = fenv.ZWcn4KYHP137
+local _ = fenv.e0OQTv3jKgEuM1
+local _ = fenv.RhFtayqQ4l6u
+local _14 = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+game:GetService("RunService")
+local _LocalPlayer19 = game:GetService("Players").LocalPlayer
+local _call27 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFD194"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF5F6D"),
+        Transparency = 0,   
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FF7E5F"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _ = fenv.E8anABd7fImy
+local _call36 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFF3E0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FFD194"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FFE0B2"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call44 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FF8C42"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF6A88"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FF7E5F"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _ = fenv.qgzUQ2DJWbR8
+local _call53 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6B4226"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A0522D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#8B4513"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call61 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#D9B08C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#B5651D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#C68642"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call69 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFE5B4"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FFAA5C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FFC87C"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call78 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFAA5C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF5F6D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FF7E5F"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call86 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FF7F50"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF5F6D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FF6A88"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+_14:AddTheme({
+    Outline = _call44,
+    Text = _call53,
+    Placeholder = _call61,
+    Name = "Mid Summer",
+    Dialog = _call36,
+    Button = _call78,
+    Background = _call69,
+    Icon = _call86,
+    Accent = _call27,
+})
+local _call95 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#232526"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#E0E0E0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#636363"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _ = fenv.Lhu3R7nhejof
+local _call104 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#1C1C1C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#636363"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#3A3A3A"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call112 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#B0B0B0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#E0E0E0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#C0C0C0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call120 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFFFFF"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#BFBFBF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#D9D9D9"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call128 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#A0A0A0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#C0C0C0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#B0B0B0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call136 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#101010"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#636363"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#3A3A3A"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call145 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#3A3A3A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A2A2A2"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#636363"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call153 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#C0C0C0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FFFFFF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#E0E0E0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+_14:AddTheme({
+    Outline = _call112,
+    Text = _call120,
+    Placeholder = _call128,
+    Name = "Lunar Moon",
+    Dialog = _call104,
+    Button = _call145,
+    Background = _call136,
+    Icon = _call153,
+    Accent = _call95,
+})
+local _call162 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#D0E8F2"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#70C0F2"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#A0D4F2"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call170 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#E0F7FF"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#80E7FF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#B0EFFF"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call178 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#70C0F2"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#30A0D0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#50B0E0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call186 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#0D3B66"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#1E81B0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#145DA0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call194 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#7FB3D5"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#3F91B5"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#5FA2C5"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call202 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#E6F0FA"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#B4D1F0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#CDE0F5"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call210 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#50B0E0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#108FC0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#30A0D0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call219 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#30A0D0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#0D81B0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#108FC0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+_14:AddTheme({
+    Outline = _call178,
+    Text = _call186,
+    Placeholder = _call194,
+    Name = "Winter Frost",
+    Dialog = _call170,
+    Button = _call210,
+    Background = _call202,
+    Icon = _call219,
+    Accent = _call162,
+})
+local _call228 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#3B0D5C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#9C27B0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#6A1B9A"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call236 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#1A001A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#6A006A"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#3D003D"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call244 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#9C27B0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#6A1B9A"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#7B1FA2"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call252 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFFFFF"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#C0C0C0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#E0E0E0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call260 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#B0A0B5"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#7B6F8C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#9C8FA0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call268 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#10001A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#30004D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A0033"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call277 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6A1B9A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#B55BC5"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#9C27B0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call285 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#9C27B0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#D084E0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#B55BC5"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+_14:AddTheme({
+    Outline = _call244,
+    Text = _call252,
+    Placeholder = _call260,
+    Name = "Elegant Night",
+    Dialog = _call236,
+    Button = _call277,
+    Background = _call268,
+    Icon = _call285,
+    Accent = _call228,
+})
+local _call294 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#0D0D1A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A33"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call302 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#101026"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#333366"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A3D"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call310 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#5050A0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#404080"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call318 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#A0A0FF"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#E0E0FF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#C0C0FF"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call326 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6060A0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A0A0E0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#8080C0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call334 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#0A0A1A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#2E2E5C"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#1A1A33"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call343 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#404080"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#6060C0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#5050A0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+local _call351 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#6060C0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#A0A0FF"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#8080E0"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 90,
+})
+_14:AddTheme({
+    Outline = _call310,
+    Text = _call318,
+    Placeholder = _call326,
+    Name = "Lunar Abyss",
+    Dialog = _call302,
+    Button = _call343,
+    Background = _call334,
+    Icon = _call351,
+    Accent = _call294,
+})
+local _call360 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#33001A"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#99004D"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#660033"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call368 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#1A0014"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#66003F"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#330028"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call376 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#99004D"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF6699"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#CC3366"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call384 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#FFE6F0"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF80A0"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FFB3CC"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call392 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#CC6699"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FFB3D9"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#FF99CC"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call400 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#1A0014"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#66003F"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#330028"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call409 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#66003F"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#CC3366"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#99004D"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+local _call417 = _14:Gradient({
+    ["0"] = {
+        Color = Color3.fromHex("#99004D"),
+        Transparency = 0,
+    },
+    ["100"] = {
+        Color = Color3.fromHex("#FF6699"),
+        Transparency = 0,
+    },
+    ["50"] = {
+        Color = Color3.fromHex("#CC3366"),
+        Transparency = 0,
+    },
+}, {
+    Rotation = 45,
+})
+_14:AddTheme({
+    Outline = _call376,
+    Text = _call384,
+    Placeholder = _call392,
+    Name = "Lunar Eclipse",
+    Dialog = _call368,
+    Button = _call409,
+    Background = _call400,
+    Icon = _call417,
+    Accent = _call360,
+})
+local _ = _LocalPlayer19.OsPlatform
+local _OsPlatform420 = _LocalPlayer19.OsPlatform
+local _ = _OsPlatform420 == Enum.Platform.IOS
+local _ = _OsPlatform420 == Enum.Platform.Android
+local _call428 = Color3.fromRGB(0, 128, 255)
+local _call430 = Color3.fromRGB(255, 140, 0)
+local _440, _440_2, _440_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0)))
+local _ = fenv.LuzGQMnBhcSh
+local _451, _451_2, _451_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0)))
+local _461, _461_2, _461_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0)))
+local _462, _462_2, _462_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _440, _451, _461, "F")
+local _473, _473_2, _473_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.0625)))
+local _483, _483_2, _483_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.0625)))
+local _493, _493_2, _493_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.0625)))
+local _494, _494_2, _494_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _473, _483, _493, "o")
+local _505, _505_2, _505_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.125)))
+local _515, _515_2, _515_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.125)))
+local _525, _525_2, _525_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.125)))
+local _526, _526_2, _526_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _505, _515, _525, "x")
+local _537, _537_2, _537_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.1875)))
+local _547, _547_2, _547_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.1875)))
+local _557, _557_2, _557_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.1875)))
+local _558, _558_2, _558_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _537, _547, _557, "n")
+local _569, _569_2, _569_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.25)))
+local _579, _579_2, _579_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.25)))
+local _589, _589_2, _589_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.25)))
+local _590, _590_2, _590_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _569, _579, _589, "a")
+local _601, _601_2, _601_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.3125)))
+local _611, _611_2, _611_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.3125)))
+local _621, _621_2, _621_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.3125)))
+local _622, _622_2, _622_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _601, _611, _621, "m")
+local _633, _633_2, _633_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.375)))
+local _643, _643_2, _643_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.375)))
+local _653, _653_2, _653_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.375)))
+local _654, _654_2, _654_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _633, _643, _653, "e")
+local _665, _665_2, _665_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.4375)))
+local _675, _675_2, _675_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.4375)))
+local _685, _685_2, _685_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.4375)))
+local _686, _686_2, _686_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _665, _675, _685, " ")
+local _697, _697_2, _697_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.5)))
+local _707, _707_2, _707_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.5)))
+local _717, _717_2, _717_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.5)))
+local _718, _718_2, _718_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _697, _707, _717, "-")
+local _729, _729_2, _729_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.5625)))
+local _739, _739_2, _739_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.5625)))
+local _749, _749_2, _749_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.5625)))
+local _750, _750_2, _750_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _729, _739, _749, " ")
+local _761, _761_2, _761_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.625)))
+local _771, _771_2, _771_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.625)))
+local _781, _781_2, _781_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.625)))
+local _782, _782_2, _782_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _761, _771, _781, "9")
+local _793, _793_2, _793_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.6875)))
+local _803, _803_2, _803_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.6875)))
+local _813, _813_2, _813_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.6875)))
+local _814, _814_2, _814_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _793, _803, _813, "9")
+local _825, _825_2, _825_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.75)))
+local _835, _835_2, _835_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.75)))
+local _845, _845_2, _845_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.75)))
+local _846, _846_2, _846_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _825, _835, _845, " ")
+local _857, _857_2, _857_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.8125)))
+local _867, _867_2, _867_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.8125)))
+local _877, _877_2, _877_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.8125)))
+local _878, _878_2, _878_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _857, _867, _877, "N")
+local _889, _889_2, _889_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.875)))
+local _899, _899_2, _899_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.875)))
+local _909, _909_2, _909_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.875)))
+local _910, _910_2, _910_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _889, _899, _909, "I")
+local _921, _921_2, _921_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 0.9375)))
+local _931, _931_2, _931_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 0.9375)))
+local _941, _941_2, _941_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 0.9375)))
+local _942, _942_2, _942_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _921, _931, _941, "T")
+local _953, _953_2, _953_3 = math.floor(((_call428.R * 255) + (((_call430.R * 255) - (_call428.R * 255)) * 1)))
+local _963, _963_2, _963_3 = math.floor(((_call428.G * 255) + (((_call430.G * 255) - (_call428.G * 255)) * 1)))
+local _973, _973_2, _973_3 = math.floor(((_call428.B * 255) + (((_call430.B * 255) - (_call428.B * 255)) * 1)))
+local _974, _974_2, _974_3 = string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _953, _963, _973, "F")
+local _ = fenv.cyjod6v2OzgAW
+local _call980 = _14:CreateWindow({
+    SideBarWidth = 180,
+    Author = "discord.gg/Foxname",
+    Folder = "Foxname1",
+    ScrollBarEnabled = true,
+    Title = "" .. _462 .. _494 .. _526 .. _558 .. _590 .. _622 .. _654 .. _686 .. _718 .. _750 .. _782 .. _814 .. _846 .. _878 .. _910 .. _942 .. _974,
+    BackgroundImageTransparency = 0.6,
+    Icon = "rbxassetid://82225829203828",
+    Background = "rbxassetid://133610205520685",
+    Theme = "Lunar Abyss",
+    Size = UDim2.fromOffset(660, 430),
+})
+_call980:SetToggleKey(nil)
+_call980:EditOpenButton({
+    StrokeThickness = 2,
+    Title = "Open skibidi",
+    Enabled = true,
+    Color = ColorSequence.new(Color3.fromRGB(0, 191, 255), Color3.fromRGB(255, 105, 180)),
+    Draggable = true,
+    Icon = "rbxassetid://86146615808159",
+    CornerRadius = UDim.new(0, 16),
+})
+local _call994 = _call980:Tab({
+    Title = "Info",
+    Icon = "info",
+})
+local _call996 = _call980:Tab({
+    Title = "Main",
+    Icon = "terminal",
+})
+local _call998 = _call980:Tab({
+    Title = "Bring",
+    Icon = "box",
+})
+local _call1000 = _call980:Tab({
+    Title = "Teleport",
+    Icon = "map-pin",
+})
+local _call1002 = _call980:Tab({
+    Title = "LocalPlayer",
+    Icon = "user",
+})
+local _call1004 = _call980:Tab({
+    Title = "Mis",
+    Icon = "file-archive",
+})
+local _call1006 = _call980:Tab({
+    Title = "Tree",
+    Icon = "tree-pine",
+})
+local _call1008 = _call980:Tab({
+    Title = "Settings",
+    Icon = "settings",
+})
+local _call1012 = game:GetService("Workspace")
+game:GetService("ReplicatedStorage")
+game:GetService("UserInputService")
+local _call1020 = game:GetService("HttpService")
+game:GetService("ProximityPromptService")
+local _ = game:GetService("Players").LocalPlayer
+_call1012:WaitForChild("Items")
+local _ = _call1012.CurrentCamera
+makefolder("Foxnamess2")
+fenv.SaveConfig = function(...)
+    local _1028_vararg1, _1028_vararg2 = ...
+    local _ = fenv["2uLUea9eCbmp"]
+    local _call1034 = _call1020:JSONEncode(_1028_vararg2)
+    writefile("Foxnamess2" .. "/" .. _1028_vararg1 .. ".json", _call1034)
+    local _call1036 = _call1020:JSONEncode({
+        Auto = true,
+        NameFileSelected = _1028_vararg1,
+    })
+    writefile("Foxnamess2/Auto.txt", _call1036)
+    local _ = fenv.cPjuUFHdf7Q6
+end
+fenv.LoadConfig = function(...)
+    local _1038_vararg1 = ...
+    local _ = "Foxnamess2" .. "/" .. _1038_vararg1 .. ".json"
+    local _ = fenv["9vYhdD3w4RlEq"]
+end
+fenv.AutoLoadConfig = function(...)
+    _call1020:JSONDecode(_call1036)
+    local _ = fenv["53i3SCDUeXteFc"]
+    error("line 1: attempt to call a string value")
+end
+fenv.readAuto = function(...)
+    local _ = fenv.fki8W2zypUmJLV
+    local _ = fenv.LKpbl19Ajjovso
+    return _call1020:JSONDecode(_call1036)
+end
+fenv.writeAuto = function(...)
+    local _1054_vararg1 = ...
+    local _ = fenv.Wo4lRCWqz8Y4e
+    local _call1059 = _call1020:JSONEncode({
+        Auto = _1054_vararg1,
+        NameFileSelected = "Default",
+    })
+    writefile("Foxnamess2/Auto.txt", _call1059)
+    local _ = fenv.OSq6bG69C3kVo
+end
+fenv.ListFiles = function(...)
+    _call1059:reverse():split("/")
+    _call1034:reverse():split("/")
+    for _1071, _1071_2 in ipairs(listfiles("Foxnamess2")) do
+    end
+    local _ = fenv["69jlmYVkjCnJ"]
+    return {
+        [1] = _1071_2:match("([^/\\]+)%.json$"),
+    }
+end
+for _1077, _1077_2 in pairs(_14:GetThemes()) do
+end
+local _call1080 = _call1020:JSONDecode(_call1059)
+local _ = _call1080.Auto
+local _ = _call1080.NameFileSelected
+local _ = _call1080.NameFileSelected
+local _ = "Foxnamess2" .. "/" .. _call1080.NameFileSelected .. ".json"
+local _LocalPlayer1089 = game.Players.LocalPlayer
+local _ = _LocalPlayer1089.Character
+game.ReplicatedStorage:WaitForChild("RemoteEvents")
+_LocalPlayer1089:WaitForChild("Inventory")
+local _call1097 = workspace:WaitForChild("Characters")
+_G.KillAura = false
+_G.KillAuraRange = 100
+_G.ChopAura = false
+_G.ChopAuraRange = 100
+_G.ChopTreeType = {
+    [1] = "Small Tree",
+}
+_call996:Divider()
+_call996:Section({
+    TextSize = 17,
+    Title = "Kill Aura",
+    TextXAlignment = "Center",
+})
+_call996:Toggle({
+    Callback = function(...)
+        local _Character1105 = _LocalPlayer1089.Character
+        _Character1105:FindFirstChild("HumanoidRootPart")
+        for _1110, _1110_2 in ipairs(_Character1105:GetChildren()) do
+            _1110_2:IsA("Model")
+            _1110_2:GetAttribute("WeaponDamage")
+            for _1117, _1117_2 in ipairs(_call1097:GetChildren()) do
+                _1117_2:IsA("Model")
+                _1117_2:FindFirstChild("HumanoidRootPart")
+                local _ = fenv.vNFQ5U7yUbqkzj
+                _1117_2.Name:find("Lost Child")
+            end
+            task.wait(0.6)
+            local _Character1126 = _LocalPlayer1089.Character
+            _Character1126:FindFirstChild("HumanoidRootPart")
+            for _1131, _1131_2 in ipairs(_Character1126:GetChildren()) do
+                _1131_2:IsA("Model")
+                _1131_2:GetAttribute("WeaponDamage")
+                for _1138, _1138_2 in ipairs(_call1097:GetChildren()) do
+                    _1138_2:IsA("Model")
+                    _1138_2:FindFirstChild("HumanoidRootPart")
+                    _1138_2.Name:find("Lost Child")
+                end
+                task.wait(0.6)
+                local _Character1146 = _LocalPlayer1089.Character
+                _Character1146:FindFirstChild("HumanoidRootPart")
+                for _1151, _1151_2 in ipairs(_Character1146:GetChildren()) do
+                    _1151_2:IsA("Model")
+                    _1151_2:GetAttribute("WeaponDamage")
+                    for _1158, _1158_2 in ipairs(_call1097:GetChildren()) do
+                        _1158_2:IsA("Model")
+                        _1158_2:FindFirstChild("HumanoidRootPart")
+                        _1158_2.Name:find("Lost Child")
+                    end
+                    task.wait(0.6)
+                    local _Character1166 = _LocalPlayer1089.Character
+                    _Character1166:FindFirstChild("HumanoidRootPart")
+                    for _1171, _1171_2 in ipairs(_Character1166:GetChildren()) do
+                        local _ = _1171_2.IsA
+                        error("internal 543: <25ms: infinitelooperror>")
+                    end
+                end
+            end
+        end
+    end,
+    Title = "Kill Aura",
+    Default = false,
+})
+_call996:Slider({
+    Value = {
+        Min = 0,
+        Default = 100,
+        Max = 150,
+    },
+    Callback = function(...)
+        local _ = fenv.bwbexnDiZLRkzU
+    end,
+    Title = "Kill Aura Range",
+    Step = 1,
+})
+_call996:Section({
+    TextSize = 17,
+    Title = "Tree Aura",
+    TextXAlignment = "Center",
+})
+_call996:Divider()
+_call996:Slider({
+    Value = {
+        Min = 50,
+        Default = 100,
+        Max = 150,
+    },
+    Callback = function(...)
+        local _ = fenv.VY4fCeFtBioN0g
+    end,
+    Title = "Chop Aura Range",
+    Step = 1,
+})
+_call996:Dropdown({
+    Title = "Tree Type",
+    Value = {
+        [1] = "Small Tree",
+    },
+    Multi = true,
+    Callback = function(...)
+        local _ = fenv.i9G0JeMLugKW
+    end,
+    Values = {
+        [1] = "Small Tree",
+        [2] = "Big Tree",
+        [3] = "Dead Tree",
+    },
+})
+_call996:Toggle({
+    Callback = function(...)
+        task.spawn(function(...)
+            error("internal 543: <25ms: infinitelooperror>")
+        end)
+        local _ = fenv.T9EDX1yWcV2O
+    end,
+    Title = "Tree Aura",
+    Default = false,
+})
+_call996:Divider()
+_call996:Section({
+    TextSize = 20,
+    Title = "Stun",
+    TextXAlignment = "Center",
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Stun Deer",
+    Default = false,
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Stun Owl",
+    Default = false,
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Stun Ram",
+    Default = false,
+})
+_call996:Divider()
+_call996:Section({
+    TextSize = 17,
+    Title = "Godmode",
+    TextXAlignment = "Center",
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Godmode",
+    Default = false,
+})
+_call996:Divider()
+_call996:Section({
+    TextSize = 17,
+    Title = "Auto",
+    TextXAlignment = "Center",
+})
+_call996:Divider()
+_call996:Dropdown({
+    Title = "Select Auto",
+    Value = {
+        [1] = "",
+    },
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Collect Coins",
+        [2] = "Plants Seed Box",
+        [3] = "Collect Ammo",
+        [4] = "Collect Diamond",
+        [5] = "Plants Tree",
+    },
+})
+local _call1228 = game:GetService("ReplicatedStorage")
+workspace:FindFirstChild("Items")
+_call1228:FindFirstChild("RemoteEvents")
+_call1228.RemoteEvents:FindFirstChild("RequestConsumeItem")
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto",
+    Default = false,
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Revive Team(bandage)",
+    Default = false,
+})
+_call996:Divider()
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Grab Children",
+    Default = false,
+})
+_call996:Divider()
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents")
+workspace:WaitForChild("Items")
+_G.AutoFuelB = {
+    [1] = "Log",
+    [2] = "Coal",
+    [3] = "Oil Barrel",
+    [4] = "Fuel Canister",
+    [5] = "Biofuel",
+}
+_G.AutoFuel = false
+_call996:Dropdown({
+    Title = "Choose Fuel",
+    Value = {
+        [1] = "Log",
+        [2] = "Coal",
+        [3] = "Oil Barrel",
+        [4] = "Fuel Canister",
+        [5] = "Biofuel",
+    },
+    AllowNone = true,
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Log",
+        [2] = "Coal",
+        [3] = "Oil Barrel",
+        [4] = "Fuel Canister",
+        [5] = "Biofuel",
+    },
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Fuel",
+    Default = false,
+})
+_call996:Divider()
+_G.AutoFood = false
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Cook",
+    Default = false,
+})
+_call996:Divider()
+_G.AutoScrapperH = false
+_G.AutoScrapper = {
+    [1] = "Chair",
+    [2] = "Broken Fan",
+    [3] = "Sheet Metal",
+    [4] = "Bolt",
+    [5] = "Metal Chair",
+    [6] = "Broken Microwave",
+    [7] = "Old Car Engine",
+    [8] = "Old Radio",
+    [9] = "Washing Machine",
+    [10] = "Cultist Gem",
+    [11] = "Tyre",
+    [12] = "UFO Junk",
+    [13] = "UFO Component",
+}
+_call996:Dropdown({
+    Title = "Choose Scrapper",
+    Value = {
+        [1] = "Chair",
+        [2] = "Broken Fan",
+        [3] = "Sheet Metal",
+        [4] = "Bolt",
+        [5] = "Metal Chair",
+        [6] = "Broken Microwave",
+        [7] = "Old Car Engine",
+        [8] = "Old Radio",
+        [9] = "Washing Machine",
+        [10] = "Cultist Gem",
+        [11] = "Tyre",
+        [12] = "UFO Junk",
+        [13] = "UFO Component",
+    },
+    AllowNone = true,
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Log",
+        [2] = "Chair",
+        [3] = "Broken Fan",
+        [4] = "Sheet Metal",
+        [5] = "Bolt",
+        [6] = "Metal Chair",
+        [7] = "Broken Microwave",
+        [8] = "Old Car Engine",
+        [9] = "Old Radio",
+        [10] = "Washing Machine",
+        [11] = "Cultist Gem",
+        [12] = "Tyre",
+        [13] = "UFO Junk",
+        [14] = "UFO Component",
+    },
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Scrapper",
+    Default = false,
+})
+_call996:Divider()
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Sacrifice",
+    Default = false,
+})
+_call996:Divider()
+_G.TypeFoodToFill = "Carrot"
+_call996:Dropdown({
+    Value = "Carrot",
+    Callback = function(...)
+    end,
+    Title = "Select Food to Fill Hunger",
+    Values = {
+        [1] = "Carrot",
+        [2] = "Berry",
+        [3] = "Cooked Morsel",
+        [4] = "Cooked Steak",
+    },
+})
+fenv._HUNGER_THRESHOLD = 150
+_call996:Slider({
+    Value = {
+        Min = 1,
+        Default = 100,
+        Max = 200,
+    },
+    Callback = function(...)
+    end,
+    Title = "Hunger Threshold",
+    Step = 1,
+})
+_G.AutoEat = false
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Eat",
+    Default = false,
+})
+_call996:Divider()
+_call996:Section({
+    TextSize = 17,
+    Title = "Other",
+    TextXAlignment = "Center",
+})
+_call996:Divider()
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "100% Catch fish",
+    Default = false,
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "100% Successful Taming Flute",
+    Default = false,
+})
+_call996:Button({
+    Locked = false,
+    Title = "Instant Complete 3 Minigame Maze",
+    Callback = function(...)
+    end,
+})
+_call996:Divider()
+_call996:Section({
+    TextSize = 17,
+    Title = "Chest",
+    TextXAlignment = "Center",
+})
+_G.AutoOpenAllChests = false
+task.spawn(function(...)
+
+end)
+_call996:Dropdown({
+    Title = "Choose Chest To Teleport",
+    AllowNone = true,
+    Value = "None",
+    Multi = false,
+    Callback = function(...)
+    end,
+    Values = {},
+})
+_call996:Button({
+    Title = "Reset Chest List",
+    Callback = function(...)
+    end,
+})
+_call996:Button({
+    Title = "Teleport To Chest",
+    Callback = function(...)
+    end,
+})
+_call996:Button({
+    Title = "Open All Chests",
+    Callback = function(...)
+    end,
+})
+_call996:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Auto Open All Chests",
+    Default = false,
+})
+_call996:Divider()
+genv.TypeSelect = {
+    Mental = {
+        [1] = "Broken Fan",
+        [2] = "Sheet Metal",
+        [3] = "Bolt",
+        [4] = "Metal Chair",
+        [5] = "Broken Microwave",
+        [6] = "Old Car Engine",
+        [7] = "Old Radio",
+        [8] = "WashingMachine",
+        [9] = "Cultist Gem",
+        [10] = "Tyre",
+        [11] = "Gem of the Forest Fragment",
+        [12] = "UFO Junk",
+        [13] = "UFO Component",
+    },
+    Fuel = {
+        [1] = "Coal",
+        [2] = "Oil Barrel",
+        [3] = "Fuel Canister",
+        [4] = "Biofuel",
+    },
+    Food = {
+        [1] = "Morsel",
+        [2] = "Cooked Morsel",
+        [3] = "Steak",
+        [4] = "Cooked Steak",
+        [5] = "Berry",
+        [6] = "Carrot",
+        [7] = "Cake",
+        [8] = "Chilli",
+        [9] = "Stew",
+        [10] = "Meat? Sandwich",
+        [11] = "Corn",
+        [12] = "Pumpkin",
+    },
+    Other = {
+        [1] = "Halloween Candle",
+        [2] = "Meteor Shard",
+        [3] = "Gold Shard",
+        [4] = "Raw Obsidiron Ore",
+        [5] = "Scalding Obsidiron Ingot",
+        [6] = "Obsidiron Ingot",
+        [7] = "Anvil Front",
+        [8] = "Anvil Base",
+        [9] = "Anvil Back",
+        [10] = "Sacrifice Totem",
+        [11] = "Bunny Foot",
+        [12] = "Wolf Pelt",
+        [13] = "Alpha Wolf Pelt",
+        [14] = "Bear Pelt",
+        [15] = "Wolf Corpse",
+        [16] = "Alpha Wolf Corpse",
+        [17] = "Bear Corpse",
+        [18] = "Polar Bear Pelt",
+        [19] = "Coin Stack",
+        [20] = "Arctic Wolf Pelt",
+        [21] = "Mammoth Tusk",
+        [22] = "Cultist King Antler",
+        [23] = "Scorpion Shell",
+    },
+    Resources = {
+        [1] = "Log",
+        [2] = "Chair",
+        [3] = "Sapling",
+        [4] = "Diamond",
+        [5] = "Cultist",
+        [6] = "Crossbow Cultist",
+        [7] = "Alien",
+        [8] = "Hologram Emitter",
+    },
+    Tool = {
+        [1] = "Old Flashlight",
+        [2] = "Strong Flashlight",
+        [3] = "Good Axe",
+        [4] = "Strong Axe",
+        [5] = "Chainsaw",
+        [6] = "Good Sack",
+        [7] = "Giant Sack",
+        [8] = "Kunai",
+        [9] = "Morningstar",
+        [10] = "Wildfire",
+        [11] = "Infernal Sack",
+        [12] = "Defense Blueprint",
+        [13] = "Bear Trap Blueprint",
+        [14] = "Lava Mine Blueprint",
+        [15] = "MedKit",
+        [16] = "Bandage",
+        [17] = "Spear",
+        [18] = "Poison Spear",
+        [19] = "Thorn Body",
+        [20] = "Obsidiron Body",
+        [21] = "Obsidiron Hammer",
+        [22] = "Obsidiron Boots",
+        [23] = "Cultist King Mace",
+    },
+    Gun = {
+        [1] = "Revolver",
+        [2] = "Revolver Ammo",
+        [3] = "Rifle",
+        [4] = "Rifle Ammo",
+        [5] = "Tactical Shotgun",
+        [6] = "Raygun",
+        [7] = "Laser Canon",
+        [8] = "Crossbow",
+        [9] = "Infernal Crossbow",
+        [10] = "Leather Body",
+        [11] = "Iron Body",
+        [12] = "Alien Amour",
+    },
+}
+_call998:Divider()
+_G.ItemToPos = "Player"
+_call998:Dropdown({
+    Value = "Player",
+    Callback = function(...)
+    end,
+    Title = "Drop Item To",
+    Values = {
+        [1] = "Player",
+        [2] = "Campfire",
+        [3] = "Scrapper",
+    },
+})
+_G.BringWithoutTPMode = "Normal"
+_call998:Dropdown({
+    Value = "Normal",
+    Callback = function(...)
+    end,
+    Title = "Bring Mode",
+    Values = {
+        [1] = "Normal",
+        [2] = "Fast",
+    },
+})
+_call998:Divider()
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Fuel Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Fuel",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Coal",
+        [2] = "Oil Barrel",
+        [3] = "Fuel Canister",
+        [4] = "Biofuel",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Fuel",
+    Desc = "Bring selected Fuel items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Resources Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Resources",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Log",
+        [2] = "Chair",
+        [3] = "Sapling",
+        [4] = "Diamond",
+        [5] = "Cultist",
+        [6] = "Crossbow Cultist",
+        [7] = "Alien",
+        [8] = "Hologram Emitter",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Resources",
+    Desc = "Bring selected Resources items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Mental Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Mental",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Broken Fan",
+        [2] = "Sheet Metal",
+        [3] = "Bolt",
+        [4] = "Metal Chair",
+        [5] = "Broken Microwave",
+        [6] = "Old Car Engine",
+        [7] = "Old Radio",
+        [8] = "WashingMachine",
+        [9] = "Cultist Gem",
+        [10] = "Tyre",
+        [11] = "Gem of the Forest Fragment",
+        [12] = "UFO Junk",
+        [13] = "UFO Component",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Mental",
+    Desc = "Bring selected Mental items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Food Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Food",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Morsel",
+        [2] = "Cooked Morsel",
+        [3] = "Steak",
+        [4] = "Cooked Steak",
+        [5] = "Berry",
+        [6] = "Carrot",
+        [7] = "Cake",
+        [8] = "Chilli",
+        [9] = "Stew",
+        [10] = "Meat? Sandwich",
+        [11] = "Corn",
+        [12] = "Pumpkin",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Food",
+    Desc = "Bring selected Food items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Tool Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Tool",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Old Flashlight",
+        [2] = "Strong Flashlight",
+        [3] = "Good Axe",
+        [4] = "Strong Axe",
+        [5] = "Chainsaw",
+        [6] = "Good Sack",
+        [7] = "Giant Sack",
+        [8] = "Kunai",
+        [9] = "Morningstar",
+        [10] = "Wildfire",
+        [11] = "Infernal Sack",
+        [12] = "Defense Blueprint",
+        [13] = "Bear Trap Blueprint",
+        [14] = "Lava Mine Blueprint",
+        [15] = "MedKit",
+        [16] = "Bandage",
+        [17] = "Spear",
+        [18] = "Poison Spear",
+        [19] = "Thorn Body",
+        [20] = "Obsidiron Body",
+        [21] = "Obsidiron Hammer",
+        [22] = "Obsidiron Boots",
+        [23] = "Cultist King Mace",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Tool",
+    Desc = "Bring selected Tool items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Gun Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Gun",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Revolver",
+        [2] = "Revolver Ammo",
+        [3] = "Rifle",
+        [4] = "Rifle Ammo",
+        [5] = "Tactical Shotgun",
+        [6] = "Raygun",
+        [7] = "Laser Canon",
+        [8] = "Crossbow",
+        [9] = "Infernal Crossbow",
+        [10] = "Leather Body",
+        [11] = "Iron Body",
+        [12] = "Alien Amour",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Gun",
+    Desc = "Bring selected Gun items",
+})
+local _ = genv.TypeSelect
+_call998:Divider()
+_call998:Section({
+    TextSize = 17,
+    Title = "Other Section",
+    TextXAlignment = "Center",
+})
+_call998:Divider()
+_call998:Dropdown({
+    Title = "Select Other",
+    AllowNone = true,
+    Value = {},
+    Multi = true,
+    Callback = function(...)
+    end,
+    Values = {
+        [1] = "Halloween Candle",
+        [2] = "Meteor Shard",
+        [3] = "Gold Shard",
+        [4] = "Raw Obsidiron Ore",
+        [5] = "Scalding Obsidiron Ingot",
+        [6] = "Obsidiron Ingot",
+        [7] = "Anvil Front",
+        [8] = "Anvil Base",
+        [9] = "Anvil Back",
+        [10] = "Sacrifice Totem",
+        [11] = "Bunny Foot",
+        [12] = "Wolf Pelt",
+        [13] = "Alpha Wolf Pelt",
+        [14] = "Bear Pelt",
+        [15] = "Wolf Corpse",
+        [16] = "Alpha Wolf Corpse",
+        [17] = "Bear Corpse",
+        [18] = "Polar Bear Pelt",
+        [19] = "Coin Stack",
+        [20] = "Arctic Wolf Pelt",
+        [21] = "Mammoth Tusk",
+        [22] = "Cultist King Antler",
+        [23] = "Scorpion Shell",
+    },
+})
+_call998:Button({
+    Callback = function(...)
+    end,
+    Title = "Bring Other",
+    Desc = "Bring selected Other items",
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Teleport Campfire",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to Fish",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to Skills Building",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to Stronghold",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to ToolWorkshop",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Teleport Sacrifice",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to Ice Temple",
+    Callback = function(...)
+    end,
+})
+_call1000:Button({
+    Locked = false,
+    Title = "Tp to Snow Clothing Shop",
+    Callback = function(...)
+    end,
+})
+game:GetService("ReplicatedStorage")
+game:GetService("Workspace")
+local _ = game:GetService("Players").LocalPlayer
+genv.TreeShapes = {
+    Circle = function(...)
+    end,
+    Square = function(...)
+    end,
+    Triangle = function(...)
+    end,
+    Spiral = function(...)
+    end,
+    Heart = function(...)
+    end,
+    Pentagon = function(...)
+    end,
+    Star = function(...)
+    end,
+    Cross = function(...)
+    end,
+    Diamond = function(...)
+    end,
+}
+_call1006:Section({
+    TextSize = 20,
+    Title = "How to use, you must have 1 sapling to be able to inf",
+    TextXAlignment = "Center",
+})
+_call1006:Divider()
+_call1006:Dropdown({
+    Value = "Circle",
+    Callback = function(...)
+    end,
+    Title = "Shape",
+    Values = {
+        [1] = "Square",
+        [2] = "Circle",
+        [3] = "Spiral",
+        [4] = "Triangle",
+        [5] = "Diamond",
+        [6] = "Heart",
+        [7] = "Cross",
+        [8] = "Star",
+        [9] = "Pentagon",
+    },
+})
+_call1006:Slider({
+    Value = {
+        Min = 0.2,
+        Default = 1,
+        Max = 10,
+    },
+    Callback = function(...)
+    end,
+    Title = "Spacing",
+    Step = 0.1,
+})
+_call1006:Slider({
+    Value = {
+        Min = 5,
+        Default = 20,
+        Max = 200,
+    },
+    Callback = function(...)
+    end,
+    Title = "Size",
+    Step = 1,
+})
+_call1006:Input({
+    InputIcon = "chevron-up",
+    Type = "Input",
+    Title = "Height",
+    Value = "4",
+    Callback = function(...)
+    end,
+    Placeholder = "",
+})
+_call1006:Dropdown({
+    Value = "Instant",
+    Callback = function(...)
+    end,
+    Title = "Speed",
+    Values = {
+        [1] = "Instant",
+        [2] = "Fast",
+        [3] = "Normal",
+        [4] = "Slow",
+    },
+})
+_call1006:Dropdown({
+    Value = "Center",
+    Callback = function(...)
+    end,
+    Title = "Origin",
+    Values = {
+        [1] = "Center",
+        [2] = "Player",
+    },
+})
+_call1006:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Showcase plant",
+    Default = false,
+})
+_call1006:Button({
+    Title = "Build Plant (Inf Tree)",
+    Callback = function(...)
+    end,
+})
+_G.Speed = 27
+_G.SpeedT = false
+_G.JumpPower = 50
+_G.JumpPowerT = false
+_call1002:Slider({
+    Value = {
+        Min = 27,
+        Default = 27,
+        Max = 430,
+    },
+    Callback = function(...)
+    end,
+    Title = "Set WalkSpeed",
+    Step = 1,
+})
+_call1002:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Auto WalkSpeed",
+    Default = false,
+})
+_call1002:Slider({
+    Value = {
+        Min = 27,
+        Default = 50,
+        Max = 320,
+    },
+    Callback = function(...)
+    end,
+    Title = "Set JumpPower",
+    Step = 1,
+})
+_call1002:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Auto JumpPower",
+    Default = false,
+})
+local _call1513 = game:GetService("UserInputService")
+local _ = workspace.CurrentCamera
+local _Character1515 = game.Players.LocalPlayer.Character
+_Character1515:WaitForChild("Humanoid")
+_Character1515:WaitForChild("HumanoidRootPart")
+table.find({
+    [1] = Enum.Platform.Android,
+    [2] = Enum.Platform.IOS,
+}, _call1513:GetPlatform())
+_call1513.InputBegan:Connect(function(...)
+
+end)
+_call1513.InputEnded:Connect(function(...)
+
+end)
+_G.SetSpeedFly = 100
+_G.StartFly = false
+fenv.Fly = function(...)
+
+end
+_call1002:Slider({
+    Value = {
+        Min = 30,
+        Default = 100,
+        Max = 500,
+    },
+    Callback = function(...)
+    end,
+    Title = "Set Fly Speed",
+    Step = 1,
+})
+_call1002:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Fly Toggle",
+    Default = false,
+})
+_call1002:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Noclip",
+    Default = false,
+})
+_call1004:Divider()
+_call1004:Section({
+    TextSize = 25,
+    Title = "You need TRAP to kill people",
+    TextXAlignment = "Center",
+})
+_call1004:Divider()
+for _1555, _1555_2 in ipairs(game:GetService("Players"):GetPlayers()) do
+end
+_call1004:Dropdown({
+    Value = "None",
+    Callback = function(...)
+    end,
+    Title = "choose player",
+    Values = {
+        [1] = _1555_2.Name,
+    },
+})
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Kill player",
+    Default = false,
+})
+_call1004:Divider()
+_call1004:Section({
+    TextSize = 17,
+    Title = "Others",
+    TextXAlignment = "Center",
+})
+_call1004:Divider()
+_call1004:Button({
+    Title = "Bring Anvil to Workshop",
+    Callback = function(...)
+    end,
+})
+game:GetService("Lighting")
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Ultra Clean Mode",
+    Default = false,
+})
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Full Bright",
+    Default = false,
+})
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "No Fog",
+    Default = false,
+})
+_G.AntiVoid = false
+_G.AntiVoidY = - 150
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Anti Void",
+    Default = false,
+})
+game:GetService("RunService").Heartbeat:Connect(function(...)
+
+end)
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Type = "Toggle",
+    Title = "Instant Prompt",
+    Default = false,
+})
+_G.UnlockFullMap = false
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Unlock Full Map (Circle)",
+    Default = false,
+})
+game:GetService("VirtualUser")
+local _ = game:GetService("Players").LocalPlayer
+_G.AntiAFK = false
+_call1004:Toggle({
+    Callback = function(...)
+    end,
+    Title = "Anti AFK",
+    Default = false,
+})
+_call994:Divider()
+_call994:Section({
+    TextSize = 17,
+    Title = "Discord",
+    TextXAlignment = "Center",
+})
+_call994:Divider()
+_call994:Section({
+    TextSize = 17,
+    Title = "report bug at Discord",
+    TextXAlignment = "Center",
+})
+local _call1613 = _call994:Section({
+    Title = "UPDATE",
+    TextXAlignment = "Center",
+    Opened = true,
+    TextSize = 17,
+    Icon = "app-window",
+    Box = true,
+})
+_call1613:Paragraph({
+    ThumbnailSize = 100,
+    Title = "UPDATED",
+    Locked = false,
+    Thumbnail = "rbxassetid://133222171266319",
+    Desc = "- Rework kill aura/Chop aura (Supports all weapons and axes)\n- Rework Auto Bring\n- Rework Ui\n- Add Auto Collect \n- Add Instant Complete minigame Canva (bypass day)\n- Fix Showcase plant\n- Fix fly now it has support for pc\n",
+})
+_call994:Divider()
+_call994:Section({
+    TextSize = 17,
+    Title = "Developer",
+    TextXAlignment = "Center",
+})
+_call994:Divider()
+_call994:Paragraph({
+    Image = "rbxassetid://114176151890131",
+    Title = "C\xC3\xA1o Mod",
+    ThumbnailSize = 0,
+    Locked = false,
+    ImageSize = 30,
+    Thumbnail = "",
+    Desc = "Dex and owner script",
+})
+_call994:Divider()
+_call994:Section({
+    TextSize = 17,
+    Title = "Source - Most of the script is based on his script",
+    TextXAlignment = "Center",
+})
+_call994:Divider()
+_call994:Paragraph({
+    Image = "rbxassetid://77933782593847",
+    Title = "Nova Hoang (Nguy\xE1\xBB\x85n Ng\xC3\xB4 T\xE1\xBA\xA5n Ho\xC3\xA0ng)",
+    ThumbnailSize = 0,
+    Locked = false,
+    ImageSize = 30,
+    Thumbnail = "",
+    Desc = "Owner Of Article Hub and Nihahaha Hub ",
+})
+_call994:Paragraph({
+    Image = "rbxassetid://138779531145636",
+    Title = "Giang Hub (Giang)",
+    ThumbnailSize = 0,
+    Locked = false,
+    ImageSize = 30,
+    Thumbnail = "",
+    Desc = "Co-Owner Of Article Hub and Nihahaha Hub",
+})
+for _1636, _1636_2 in pairs(_14:GetThemes()) do
+end
+_call1008:Dropdown({
+    Value = _1636,
+    Callback = function(...)
+    end,
+    Title = "Select Theme",
+    Values = {
+        [1] = _1636,
+    },
+})
+_call1008:Button({
+    Locked = false,
+    Title = "Apply Theme",
+    Callback = function(...)
+    end,
+})
+_call1008:Divider()
+local _ = fenv.fVxC7bKw7Xj5
+_call1008:Section({
+    TextSize = 17,
+    Title = "Background Select",
+    TextXAlignment = "Center",
+})
+_call1008:Divider()
+genv.BVaildSelect = {
+    Furina1 = "rbxassetid://84672393253807",
+    Furina2 = "rbxassetid://133222171266319",
+    ["No Background"] = "rbxassetid://0",
+    Furina = "rbxassetid://80115246253301",
+}
+_call1008:Dropdown({
+    Value = "No Background",
+    Callback = function(...)
+    end,
+    Title = "Select Background",
+    Values = {
+        [1] = "No Background",
+        [2] = "Furina",
+        [3] = "Furina1",
+        [4] = "Furina2",
+    },
+})
+_call1008:Divider()
+_call1008:Section({
+    TextSize = 17,
+    Title = "Custom Background",
+    TextXAlignment = "Center",
+})
+_call1008:Divider()
+_call1008:Input({
+    Callback = function(...)
+    end,
+    Type = "Input",
+    Title = "Background ID",
+    Placeholder = "135163165559760",
+})
+_call1008:Keybind({
+    Value = "G",
+    Title = "Keybind off gui",
+    Callback = function(...)
+    end,
+})
