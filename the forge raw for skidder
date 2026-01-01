@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VortexScriptsS/Vortex-Scripts/refs/heads/main/VortexUI"))():CreateWindow({
     KeySystem = {
         ValidKeys = {
-            [1] = "J39sja",
+            [1] = "1",
         },
     },
     OnWindowCreated = function(_8, _8_2)
