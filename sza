@@ -1,0 +1,8 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local Position = Vector3.new(-93.51, 24.91, -450.75)
+
+if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+    LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Position)
+end
